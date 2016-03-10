@@ -1,0 +1,37 @@
+import java.util.Scanner; 
+
+public static void main(String[] args) 
+{
+ 	String hungry;  
+	int personPlay;
+
+     Scanner scan = new Scanner(System.in);
+
+	System.out.println("Are you hungry: "); 
+        hungry.scan.next();
+
+  if {hungry.equals(Y))
+{
+System.out.println("enter 1 if thirsty, 0 if not: "); 
+
+personPlay = scan.next();
+
+
+if (personPlay = 1) 
+       System.out.println("You are thirsty ! Buy a coke now!!!\n"); 
+
+else if (personPlay = 0) 
+
+  	System.out.println("Let eat your lunch !\n"); 
+
+else 
+ 	System.out.println("You good to go !\n"); 
+
+
+}
+System.out.println("You can leave now. "); 
+
+
+
+ 
+}
