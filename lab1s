@@ -1,0 +1,26 @@
+public class week5lab2 {
+
+    public static void main(String[] args) {
+     Scanner scan = new Scanner(System.in);       
+
+     int thirsty; 
+
+        System.out.println("Hungry");
+	System.out.println("Get in line");
+	System.out.println("buy lunch");
+	System.out.println("enter 1 if thirsty, 0 if not: "); 
+
+      thirsty = input.nextInt();
+
+ if(thirsty = 1)
+  System.out.println("You are thirsty ! Buy a coke now!!!"); 
+
+
+	System.out.println("Eat lunch");
+	System.out.println("Return tray");
+	System.out.println("Leave");
+
+
+    }
+
+}
