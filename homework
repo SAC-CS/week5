@@ -89,3 +89,5 @@ public class Calculator {
     }
               
 }
+
+// Good job..please see you can print the entire equation using 1 println statement,e.g. 12 * 4 = 48
