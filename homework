@@ -1,0 +1,91 @@
+import java.util.Scanner;
+
+
+public class Calculator {
+
+
+    public static void main(String[] args) {
+
+        Scanner kb = new Scanner(System.in);
+        int choice
+        System.out.println("Calculator");
+
+        System.out.println("\nYour options:");
+        System.out.println("\n1. Addition");
+        System.out.println("\n2. Subtraction");
+        System.out.println("\n3. Division");
+        System.out.println("\n4. Multiplication");
+
+        System.out.print("\nWhat would you like to do?: ");
+        
+	choice = kb.nextInt();
+        
+
+
+
+        if (choice == 1){
+            int nOne, nTwo;
+        Scanner kb = new Scanner(System.in);
+
+        System.out.println("Addition");
+
+        System.out.print("\nFirst Number: ");
+        nOne = kb.nextInt();
+
+        System.out.print("\nSecond Number: ");
+        nTwo = kb.nextInt();
+
+        kb.close();
+        System.out.println("\nSum: " + nOne + " + " + nTwo + " = " + (nOne + nTwo));
+        }
+
+
+        else if (choice == 2){
+            int nOne, nTwo;
+        Scanner kb = new Scanner(System.in);
+
+        System.out.println("Subtraction");
+
+        System.out.print("\nFirst Number: ");
+        nOne = kb.nextInt();
+
+        System.out.print("\nSecond Number: ");
+        nTwo = kb.nextInt();
+
+        kb.close();
+        System.out.println("\nSum: " + nOne + " - " + nTwo + " = " + (nOne - nTwo));
+    }
+
+        else if (choice == 3){
+            int nOne, nTwo;
+        Scanner kb = new Scanner(System.in);
+
+        System.out.println("Division");
+
+        System.out.print("\nFirst Number: ");
+        nOne = kb.nextInt();
+
+        System.out.print("\nSecond Number: ");
+        nTwo = kb.nextInt();
+
+        kb.close();
+        System.out.println("\nSum: " + nOne + " / " + nTwo + " = " + (nOne / nTwo));
+    }
+
+        else if (choice == 4){
+        int nOne, nTwo;
+        Scanner kb = new Scanner(System.in);
+
+        System.out.println("Multiplication");
+
+        System.out.print("\nFirst Number: ");
+        nOne = kb.nextInt();
+
+        System.out.print("\nSecond Number: ");
+        nTwo = kb.nextInt();
+
+        kb.close();
+        System.out.println("\nSum: " + nOne + " x " + nTwo + " = " + (nOne * nTwo));
+    }
+              
+}
